@@ -1,0 +1,179 @@
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  background-image: url("back.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+
+h1 {
+  color: #786b59;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: center;
+    padding: 0 30 0 0px;
+    margin: 4 4 4 4px
+    padding-right: 2px
+}
+
+.authform{
+}
+.authform input[type="submit"]{
+  text-align: center;
+}
+.authform td{
+  padding: 23 0px;
+}
+.aa {
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  padding: 16px 20px;
+  background-color: #800000;
+  font-family: 'Myriad Pro', sans-serif;
+  font-size: 20;
+  color: white;
+  border: 0
+}
+
+.aa:hover {
+  background: #786b59;
+  color: #ffe;
+}
+hr {
+border: 0;
+height: 5px;
+background: #000;
+background-image: -webkit-linear-gradient(left, #800000, #fff, #800000);
+background-image: -moz-linear-gradient(left, #800000, #fff, #800000);
+background-image: -ms-linear-gradient(left, #800000, #fff, #800000);
+background-image: -o-linear-gradient(left, #800000, #fff, #800000);
+}
+.table {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  font-size: 18px;
+  max-width: 90%;
+  width: 90%;
+  border-collapse: collapse;
+  text-align: center;
+  margin:auto;
+  border-bottom:width: 99px;
+}
+.table th {
+  font-weight: bolder;
+  font-size:16px;
+  color: #039;
+  border-bottom: 5px solid #6678b1;
+  padding:2px 10px;
+}
+.table td {
+  color: #669;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 2px 10px;
+  transition: .3s linear;
+}
+.table tr: hover td {color: #6699ff;
+}
+
+.patients {
+  display: flex;
+  justify-content: center; 
+  align-iteams: flex-start;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+}
+
+.staff {
+  display: flex;
+  justify-content: center; 
+  align-iteams: flex-start;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+}
+
+
+
+ .txtb {
+   border: none;
+   border-radius: 5px;
+   margin-left: 10px;
+   width: 350px;
+   font-size: 12pt;
+   background-color: #ffffff;
+   color: #000000;
+   padding: 3px;
+ }
+ 
+ .kek label {
+   font-family: "Myriad Pro"; 
+   font-size: 35px;
+   margin: 0 20 0 0px;
+   color: #696969;
+ }
+ .text_input {
+   border: none;
+   padding: 16px;
+   width: 430px;
+   font-size: 13pt;
+   background-color: #A9A9A9;
+   color: white;
+ }
+ 
+.regform{
+  width: 60%;
+  margin: 7px auto;
+}
+.regform input[type="submit"]{
+  text-align: center;
+}
+.regform td{
+  padding: 0px;
+}
+
+.delform{
+  width: 60%;
+  margin: 77px auto;
+}
+.delform input[type="submit"]{
+  text-align: center;
+}
+.delform td{
+  padding: 0px;
+}
+
+
+.regs label {
+   font-family: "Myriad Pro"; 
+   font-size: 15px;
+   margin: 0 20 0 0px;
+   color: #696969;
+}
+
+ .txt_inp {
+   border: none;
+   padding: 10px;
+   width: 300px;
+   font-size: 15px;
+   background-color: #A9A9A9;
+   color: white;
+ }
+ 
+ .about {
+  width: 120px;
+  margin: auto;
+}
